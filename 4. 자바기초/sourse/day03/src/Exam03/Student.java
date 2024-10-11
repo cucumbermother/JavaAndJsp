@@ -11,4 +11,6 @@ public class Student {
         System.out.printf("%s는 학번이 %d이고 %s를 공부한다 %n%n", name , id , major);
     }
 
+
+
 }
