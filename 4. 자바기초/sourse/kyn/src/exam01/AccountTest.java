@@ -11,5 +11,8 @@ public class AccountTest { // kyn exam01.AccountTest
 
         int money = UserAccount * 2 * 2 * 2;
         System.out.println(money); // 800000
+
     }
-}
+
+    }
+
