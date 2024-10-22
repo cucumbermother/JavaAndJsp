@@ -29,9 +29,11 @@ public class Dog extends Animal {
 
     @Override
     void speak() {
-        super.speak();
+        System.out.println(dog_Color + "의 털을 가진 " + name + "가 멍멍 합니다.");
     }
-    /**
+
+
+/**
      * Animal클래스의 메소드인 speak메소드 또한 그대로 물려받았다
      * 이것은 override를 하지 않은 상태이며 그저 부모의 메서드를 상속받은 상태임에 불과하다
      * 이것을 재정의 하는것이 override라고 한다 밑에 다시 override해보도록 하자

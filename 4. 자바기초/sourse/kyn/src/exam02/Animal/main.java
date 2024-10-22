@@ -11,7 +11,7 @@ public class main {
          * dog_Color와 dog_Color를 초기화 값으로 받는 생성자는 dog클래스에서 새로히 정의되었다
          */
 
-        Animal cat = new Cat("오이","바둑이");
+        Animal dog2 = new Dog("또롱쓰리","바둑이");
         /**
          * 이것이 다향성이다
          * 원래 같으면 Cat cat = new Cat() 이었을 객체생성을 Animal cat = new Cat()으로 새롭게 정의했다.
@@ -26,7 +26,7 @@ public class main {
          */
 
         dog.speak();
-        cat.speak();
+        dog2.speak();
         dog.color();
 //        cat.color(); // Animal 클래스의 자본만 접근 가능하므로 이것은 접근이 불가능 하다
     }
