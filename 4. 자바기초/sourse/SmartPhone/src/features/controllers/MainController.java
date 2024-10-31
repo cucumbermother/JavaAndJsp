@@ -3,13 +3,14 @@ package features.controllers;
 import java.util.Scanner;
 
 public class MainController {
-    public void maincontrollerStart(){
+    public int maincontrollerStart(){
+        while (true){
         System.out.println();
 
         System.out.println("--- 핸드폰 실행 ---");
         System.out.println("--- 메뉴---");
         System.out.println();
-        System.out.println("1.계산기 | 2.운세보기 | 3.게임");
+        System.out.println("1.계산기 | 2.운세보기 | 3.게임 | 4. 종료");
         Scanner sc = new Scanner(System.in);
         int choice = sc.nextInt();
         if(choice == 1 ){
@@ -24,9 +25,14 @@ public class MainController {
             GameController gameController = new GameController();
             System.out.println();
             gameController.start();
-        }
-        else {
+        } else if (choice == 4) {
+            System.out.println("핸드폰 종료");
+            return 0;
+            
+        } else {
             System.out.println("올바른 번호를 입력해 주세요.");
+            
         }
-    }
+       
+    }}
 }
