@@ -1,7 +1,6 @@
 package test;
 
-import java.time.Period;
-import java.util.Random;
+
 import java.util.function.*;
 
 public class TestMain {
